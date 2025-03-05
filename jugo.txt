@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugo Energizante Natural</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffbf0;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ff9900;
+            padding: 20px;
+            font-size: 24px;
+            color: white;
+        }
+        .container {
+            padding: 20px;
+        }
+        .cta-button {
+            background-color: #ff6600;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #e65c00;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Jugo Energizante Natural 🍊🥕
+    </header>
+    <div class="container">
+        <h1>¡Siente la Energía de la Naturaleza!</h1>
+        <p>Nuestro jugo de naranja y zanahoria es la combinación perfecta para un día lleno de vitalidad.</p>
+        <ul>
+            <li>100% natural y sin conservantes</li>
+            <li>Alto en vitaminas y antioxidantes</li>
+            <li>Refrescante y delicioso</li>
+        </ul>
+        <button class="cta-button">Ordena Ahora</button>
+    </div>
+    <footer>
+        © 2025 Jugo Energizante Natural - Todos los derechos reservados.
+    </footer>
+</body>
+</html>

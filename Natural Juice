@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugo Energético</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcc00;
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6600;
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ingredient {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+        .ingredient img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Jugo Energético</header>
+    <div class="container">
+        <h2>Ingredientes Naturales y Saludables</h2>
+        <div class="ingredient">
+            <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/oranges-1238345_1280.jpg" alt="Naranja">
+            <p><strong>Naranja:</strong> Rica en vitamina C y antioxidantes.</p>
+        </div>
+        <div class="ingredient">
+            <img src="https://cdn.pixabay.com/photo/2017/03/23/12/55/carrot-2167962_1280.jpg" alt="Zanahoria">
+            <p><strong>Zanahoria:</strong> Excelente para la vista y el sistema inmunológico.</p>
+        </div>
+        <div class="ingredient">
+            <img src="https://cdn.pixabay.com/photo/2018/05/01/12/56/ginger-3360577_1280.jpg" alt="Jengibre">
+            <p><strong>Jengibre:</strong> Aumenta la energía y mejora la digestión.</p>
+        </div>
+        <div class="ingredient">
+            <img src="https://cdn.pixabay.com/photo/2018/05/30/19/49/lemon-3444012_1280.jpg" alt="Limón">
+            <p><strong>Limón:</strong> Refrescante y desintoxicante natural.</p>
+        </div>
+        <div class="ingredient">
+            <img src="https://cdn.pixabay.com/photo/2018/08/10/22/11/water-3590060_1280.jpg" alt="Agua">
+            <p><strong>Agua:</strong> Hidrata y ayuda a absorber los nutrientes.</p>
+        </div>
+        <a href="#" class="button">¡Descubre más!</a>
+    </div>
+</body>
+</html>
